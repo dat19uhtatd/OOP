@@ -32,7 +32,6 @@ private:
     ll tgbh;   
 public:
     DIENTU() {}
-
     void nhap() override {
         QLH::nhap();
         cin >> tgbh;
@@ -54,7 +53,6 @@ int main() {
         a[i].nhap();
     }
     ll tong1 = 0, tong2 = 0, tong3 = 0;
-
     for (auto &d : a) {
         if (d.getLoai() == 1) tong1 += d.getSoLuong();
         else if (d.getLoai() == 2) tong2 += d.getSoLuong();

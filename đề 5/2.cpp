@@ -30,7 +30,6 @@ public:
         cin.ignore();
         cout << "Nhap dia chi : ";
         getline(cin , diachi);
-        
     }
     virtual void in() const {
         cout << "Ten : " << ten << endl;
